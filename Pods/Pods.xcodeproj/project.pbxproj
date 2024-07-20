@@ -1,0 +1,1142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0085FC874B3B45B98704F97F7B29F296 /* Pods-FailureTryableTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB826B57433059566DB98A765BADAB /* Pods-FailureTryableTests-dummy.m */; };
+		01C315A4FAAA2F9921AF661FB50FCA07 /* SmartCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2118138B0D1E16847EE1C264525A5 /* SmartCodable-dummy.m */; };
+		048FE9F115CBAAAAB33C1A90988DC62F /* URLTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615217D4132CA482360BDF2880E58DE3 /* URLTransformer.swift */; };
+		0F19C282356CC19E7AACC22FA7335877 /* Pods-FailureTryable-FailureTryableUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6C5C0507B2F889CA5E24DB40E3839 /* Pods-FailureTryable-FailureTryableUITests-dummy.m */; };
+		12D2CACFA4170C6249F3D39AAF5AC667 /* Patcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DDA1A2221D5DD5D38A541D70D26F1 /* Patcher.swift */; };
+		16AA07BB04B238CFA58B841C38184736 /* JSONDecoderImpl+SingleValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B564744FB01FAE2BAE9E2FAE331527 /* JSONDecoderImpl+SingleValueContainer.swift */; };
+		18F5EA2300E07BAE0CDBCA7C58F7B2D3 /* Pods-FailureTryableTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CF7E3DC54016774D41C03C6929324E /* Pods-FailureTryableTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195B88EC98A414D15780F974E581E3AC /* SmartKeyDecodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD830CFF7E7D0D5BEEDCA6345024F2 /* SmartKeyDecodingStrategy.swift */; };
+		2275CDE93D65CBD6998E718FBF7CE41E /* SmartCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D5E38D10C001E3825120359CD74F42 /* SmartCodable.swift */; };
+		22AF13BCA60279D4091EAA8ACFEBB379 /* SmartLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699D6E84D8F1224EEB409B78DDE911A2 /* SmartLog.swift */; };
+		293D330D5B3005536A9E65D085E7F74A /* _SpecialTreatmentEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21B71630478217DB298F20521F20EF /* _SpecialTreatmentEncoder.swift */; };
+		2C251D3120691D5FDD3A7198DAAFA597 /* JSONDecoderImpl+KeyedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E43CF269109A2A3AA9809832B8A021 /* JSONDecoderImpl+KeyedContainer.swift */; };
+		2C7F624D349C00D5F668157AC76B137C /* JSONFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76732CB4A835C59D79BBCC10560A35DA /* JSONFuture.swift */; };
+		3594F8E77516C98EB3799C22DCA1F918 /* JSONDecoderImpl+unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7BD50C9EE28A3115798C870A69AE1 /* JSONDecoderImpl+unwrap.swift */; };
+		35E05CC7ABE2355A9F643F19FBC262E8 /* Patcher+Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965DF41B42FDC214ADD04BB30F0F6F8 /* Patcher+Transformer.swift */; };
+		36D88F31765D928838327CDAE5F2AACC /* SmartFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C60842350302743E7D7A9F50569C85 /* SmartFlat.swift */; };
+		396B3E8B9C2A85871EA7800C51D32AEE /* LogCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799AA49DCF0FCAB55639EB9F907393A /* LogCache.swift */; };
+		3B52CD201D35CDC944EA6F62C66C561B /* JSONValue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A558AEB3E382033DFBC30EE91AA10FC /* JSONValue+Extension.swift */; };
+		443F69A4E140E47ED5EAC12F5632F4E5 /* EncodingCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AEF5A39EC699E446CB5A79CE97EF06 /* EncodingCache.swift */; };
+		481ED4EC7CD067CAA010444C6F2234BE /* DateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46B1240EE1D4B2DDB826DE7B28B33A /* DateTransformer.swift */; };
+		48469B99B38010CA5F6BD69CEB0B7748 /* JSONEncoderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979D89A068728C583012B051BF87078 /* JSONEncoderImpl.swift */; };
+		5074F9F873ECFFD0EC44D90A36F86290 /* ColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4FF7E869BFA787BCC00C83E7B7B61B /* ColorTransformer.swift */; };
+		51CB58707FAE45B1F07996BCCF0D8FF0 /* SafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52AA1FB9EF46D5A9E9E499686575D9 /* SafeDictionary.swift */; };
+		54D09525E375EF53435D912048806AC8 /* JSONSingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A440E4D0441A478508B5945384B280 /* JSONSingleValueEncodingContainer.swift */; };
+		57B0176C06CE10CE73E285F5D03ADD9E /* LogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF66711A918FA037434C7C9C42B885 /* LogItem.swift */; };
+		592AE3B59C37091F88142B34F00F98B8 /* SmartJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893D1A61ACDBEF8533F044128313DCD /* SmartJSONEncoder.swift */; };
+		5A3AE637D358ED84FDFFCE31DC4017FD /* SmartUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CCE0A086B3B750EF675681ACEF02CC /* SmartUpdater.swift */; };
+		5A7D2BAADB20A45784AAA88B50520704 /* SmartJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06952D6F01D9EB6D6ADC0D0A1166D7 /* SmartJSONDecoder.swift */; };
+		5DD774D9553BB0A1E7DD06104B8787B4 /* DataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68352E16AC6D25A859D255EB77ED24 /* DataTransformer.swift */; };
+		60D74B95112002E71A8365082E7C304F /* SmartCaseDefaultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD4CD0BEFD222E8967E90F502213AF /* SmartCaseDefaultable.swift */; };
+		63BC1A9437AE6A68E4AD820A337FE295 /* Pods-FailureTryable-FailureTryableUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246D426E5CFD30E9070CAEA3487C3E6B /* Pods-FailureTryable-FailureTryableUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B26E606F3114758486C49F511FE21FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C15795259123CB3111F6139B4F08EBF /* DecodingCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9826EE68AA32C3F5DA8805697B00507 /* DecodingCache.swift */; };
+		6D8AF4794BFF87CF9DE337957F988511 /* SmartDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8811F65BB2385025AB80136AB17B2A3 /* SmartDecodable.swift */; };
+		6FAA96BB68FE547684137B95F5705530 /* SmartCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 214D46EC34839B2328AD85E8393CAF3F /* SmartCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73447AED57BCA82AD09EF91E353110F7 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748A4C4DD28215ECCC8EAAE9F9403C6E /* JSONParser.swift */; };
+		7443DBAE6EDF8317C0E34FB6849A6E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C5C2D7E4A49BCB61FF367A717CDDFA0 /* Pods-FailureTryable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0992A8A8444423A519D1C75467EAC17 /* Pods-FailureTryable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC67E3B6929ACBC6AF6F5DDDA256682 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E79FF14CC050C8883F0527031B4612 /* Transformer.swift */; };
+		7FF99D84D5BE10400C5EB413CE1610BD /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79F169CAF51233104F59F5C8FCB06C /* JSONValue.swift */; };
+		95E3552C5C7D26EDA16FE416D5516DC2 /* DecodingError+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D69D1D13441D1B6207D9D489EA5FC0 /* DecodingError+Extension.swift */; };
+		9B0604AE1D5B6B68D3AFC93E4469A3ED /* JSONKeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C257F403CA9EBD9720A847CDF5B88 /* JSONKeyedEncodingContainer.swift */; };
+		9C019DB38CD34F53379B34C4FC128A8F /* LogContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5B054611A772B45306D8A4ED26AFC /* LogContainer.swift */; };
+		9E185AD37F92BAD8AB389053E894202A /* KeysMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8E8EE6E7D24529AC8FE0E2024F405 /* KeysMapper.swift */; };
+		9F9FDDB9ECDF329EE3BB9A0F42D4791C /* JSONDecoderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC340B75461B686697BAC8B74747B9B /* JSONDecoderImpl.swift */; };
+		9FF7249130FCD4BC222F46722BEF4946 /* JSONDecoderImpl+UnkeyedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72115A1404B97F1ECD2BBBAC17AA2C7C /* JSONDecoderImpl+UnkeyedContainer.swift */; };
+		ABD23CBB54A088FEB65D3E86175AD769 /* Pods-FailureTryable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F282075C481BA14861815736BDB1314A /* Pods-FailureTryable-dummy.m */; };
+		AFD64ED17AB64DDD94C9E3E4A7243D86 /* IgnoredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D26D6149232FF10040E68451D2B6B1 /* IgnoredKey.swift */; };
+		C16B4309104BA3E8E1B3C6B9755EEE50 /* SmartColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C6DB222C41E80854968C6094189437 /* SmartColor.swift */; };
+		C9B55E0B8DE1C0E76D2555FBABE4A702 /* SmartAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47F5A84142A77966B88421AEFAFD05 /* SmartAny.swift */; };
+		CC8AFEFE3125DCC85CA65FE608982480 /* SmartEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EABEB90E27A604D347DB22A24EF326 /* SmartEncodable.swift */; };
+		D6E00507896F1FACC017D86271E9410A /* Cachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53B225A4616FF826924D115E418298 /* Cachable.swift */; };
+		E1B9E9256C5B7DD0CC964EF42EDA33E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4B8C1886E12A1F6680F8EFDAE0552FF /* Patcher+Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B9707BE42303E3C277F9C07539685 /* Patcher+Provider.swift */; };
+		EC09E8884340BFD4E0FF333D10E7C0C3 /* JSONUnkeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7DE85E51261AB8BFBF9A77D0475EE /* JSONUnkeyedEncodingContainer.swift */; };
+		FDEBF5A48373929B25C91B82E8265207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FEE8BD5534019A8EB1947B8243935535 /* SmartAnyImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3ADFD5A933D2A515E0C14396D928D /* SmartAnyImpl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B1D86B3F143452E3C1D11A23A8D627E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E22F21D8E988F433305B863C959214;
+			remoteInfo = "Pods-FailureTryable";
+		};
+		5B91A93F6D67B25613103B52AA873949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD33823B9D08265B6F1D35EC259EE307;
+			remoteInfo = SmartCodable;
+		};
+		6C1949B39616C0C16ADF65599ACCDB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD33823B9D08265B6F1D35EC259EE307;
+			remoteInfo = SmartCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A7DE85E51261AB8BFBF9A77D0475EE /* JSONUnkeyedEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONUnkeyedEncodingContainer.swift; path = SmartCodable/Classes/JSONEncoder/Container/JSONUnkeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		0F1B9707BE42303E3C277F9C07539685 /* Patcher+Provider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Patcher+Provider.swift"; path = "SmartCodable/Classes/JSONDecoder/Patcher/Patcher+Provider.swift"; sourceTree = "<group>"; };
+		0F5C257F403CA9EBD9720A847CDF5B88 /* JSONKeyedEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONKeyedEncodingContainer.swift; path = SmartCodable/Classes/JSONEncoder/Container/JSONKeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		131132234D7B97D3E7AC188D049AD7E4 /* Pods-FailureTryable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FailureTryable.modulemap"; sourceTree = "<group>"; };
+		18C60842350302743E7D7A9F50569C85 /* SmartFlat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartFlat.swift; path = SmartCodable/Classes/SmartType/SmartFlat.swift; sourceTree = "<group>"; };
+		214D46EC34839B2328AD85E8393CAF3F /* SmartCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartCodable-umbrella.h"; sourceTree = "<group>"; };
+		21911F647D32393A6EAA4EFBA7A0C5D7 /* Pods-FailureTryable-FailureTryableUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FailureTryable-FailureTryableUITests"; path = Pods_FailureTryable_FailureTryableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CF7E3DC54016774D41C03C6929324E /* Pods-FailureTryableTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FailureTryableTests-umbrella.h"; sourceTree = "<group>"; };
+		22D69D1D13441D1B6207D9D489EA5FC0 /* DecodingError+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DecodingError+Extension.swift"; path = "SmartCodable/Classes/JSONDecoder/Decoder/DecodingError+Extension.swift"; sourceTree = "<group>"; };
+		23A7BD50C9EE28A3115798C870A69AE1 /* JSONDecoderImpl+unwrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONDecoderImpl+unwrap.swift"; path = "SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+unwrap.swift"; sourceTree = "<group>"; };
+		246D426E5CFD30E9070CAEA3487C3E6B /* Pods-FailureTryable-FailureTryableUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FailureTryable-FailureTryableUITests-umbrella.h"; sourceTree = "<group>"; };
+		25AEF5A39EC699E446CB5A79CE97EF06 /* EncodingCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodingCache.swift; path = SmartCodable/Classes/JSONEncoder/EncodingCache.swift; sourceTree = "<group>"; };
+		2608ACD001D53E83B2E486023D9C40F4 /* Pods-FailureTryableTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FailureTryableTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		269E06C0CCD33AD895FF11480820305D /* Pods-FailureTryable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryable-Info.plist"; sourceTree = "<group>"; };
+		26C6DB222C41E80854968C6094189437 /* SmartColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartColor.swift; path = SmartCodable/Classes/SmartType/SmartColor.swift; sourceTree = "<group>"; };
+		2A558AEB3E382033DFBC30EE91AA10FC /* JSONValue+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONValue+Extension.swift"; path = "SmartCodable/Classes/JSONValue/JSONValue+Extension.swift"; sourceTree = "<group>"; };
+		2B6DDA1A2221D5DD5D38A541D70D26F1 /* Patcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Patcher.swift; path = SmartCodable/Classes/JSONDecoder/Patcher/Patcher.swift; sourceTree = "<group>"; };
+		2CC2118138B0D1E16847EE1C264525A5 /* SmartCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartCodable-dummy.m"; sourceTree = "<group>"; };
+		2E52AA1FB9EF46D5A9E9E499686575D9 /* SafeDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafeDictionary.swift; path = SmartCodable/Classes/Log/SafeDictionary.swift; sourceTree = "<group>"; };
+		3979D89A068728C583012B051BF87078 /* JSONEncoderImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncoderImpl.swift; path = SmartCodable/Classes/JSONEncoder/Impl/JSONEncoderImpl.swift; sourceTree = "<group>"; };
+		3CB5B054611A772B45306D8A4ED26AFC /* LogContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogContainer.swift; path = SmartCodable/Classes/Log/LogContainer.swift; sourceTree = "<group>"; };
+		3E4FF7E869BFA787BCC00C83E7B7B61B /* ColorTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorTransformer.swift; path = SmartCodable/Classes/Transformer/ColorTransformer.swift; sourceTree = "<group>"; };
+		3E623AAE662B463FDDE8B268BDEA3E7B /* SmartCodable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartCodable; path = SmartCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		414B6007BE943C412E3F03A3A9E31656 /* Pods-FailureTryable-FailureTryableUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryable-FailureTryableUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47108FE38948C561B55F740E75200033 /* Pods-FailureTryableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryableTests.release.xcconfig"; sourceTree = "<group>"; };
+		48DD4CD0BEFD222E8967E90F502213AF /* SmartCaseDefaultable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartCaseDefaultable.swift; path = SmartCodable/Classes/SmartType/SmartCaseDefaultable.swift; sourceTree = "<group>"; };
+		49D543037E3291D0F4029F966F5B9B8D /* Pods-FailureTryableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2ED901173EE0E8F978480D79E3F47F /* Pods-FailureTryable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FailureTryable"; path = Pods_FailureTryable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC340B75461B686697BAC8B74747B9B /* JSONDecoderImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecoderImpl.swift; path = SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl.swift; sourceTree = "<group>"; };
+		5617B10A58630BB3E1C98FE637645ABD /* SmartCodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartCodable.release.xcconfig; sourceTree = "<group>"; };
+		58BCED7974A003093FA1536A773E77E2 /* Pods-FailureTryable-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FailureTryable-frameworks.sh"; sourceTree = "<group>"; };
+		5B47BAEF5F8806D3B61263FDC7793196 /* Pods-FailureTryableTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FailureTryableTests"; path = Pods_FailureTryableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F49A4BAA1349E0CF4CEF0BF756306A8 /* Pods-FailureTryableTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryableTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		615217D4132CA482360BDF2880E58DE3 /* URLTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransformer.swift; path = SmartCodable/Classes/Transformer/URLTransformer.swift; sourceTree = "<group>"; };
+		633D14CD253E8337B8C13C70F8C48C19 /* SmartCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmartCodable-Info.plist"; sourceTree = "<group>"; };
+		699D6E84D8F1224EEB409B78DDE911A2 /* SmartLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartLog.swift; path = SmartCodable/Classes/Log/SmartLog.swift; sourceTree = "<group>"; };
+		6B46B1240EE1D4B2DDB826DE7B28B33A /* DateTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransformer.swift; path = SmartCodable/Classes/Transformer/DateTransformer.swift; sourceTree = "<group>"; };
+		6B47F5A84142A77966B88421AEFAFD05 /* SmartAny.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartAny.swift; path = SmartCodable/Classes/SmartType/SmartAny/SmartAny.swift; sourceTree = "<group>"; };
+		6C68B2DB7FA22D7DB8817936EC75D7DF /* Pods-FailureTryable-FailureTryableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryable-FailureTryableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72115A1404B97F1ECD2BBBAC17AA2C7C /* JSONDecoderImpl+UnkeyedContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONDecoderImpl+UnkeyedContainer.swift"; path = "SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+UnkeyedContainer.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		748A4C4DD28215ECCC8EAAE9F9403C6E /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = SmartCodable/Classes/JSONValue/JSONParser.swift; sourceTree = "<group>"; };
+		76732CB4A835C59D79BBCC10560A35DA /* JSONFuture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONFuture.swift; path = SmartCodable/Classes/JSONEncoder/JSONFuture.swift; sourceTree = "<group>"; };
+		7B900AAF7D4B95C32EDC4B50C0304EC7 /* Pods-FailureTryable-FailureTryableUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FailureTryable-FailureTryableUITests-frameworks.sh"; sourceTree = "<group>"; };
+		801F6977DDF9F9C6B9C2A62FEB3679C0 /* Pods-FailureTryableTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FailureTryableTests.modulemap"; sourceTree = "<group>"; };
+		80EF66711A918FA037434C7C9C42B885 /* LogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogItem.swift; path = SmartCodable/Classes/Log/LogItem.swift; sourceTree = "<group>"; };
+		82C6C5C0507B2F889CA5E24DB40E3839 /* Pods-FailureTryable-FailureTryableUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FailureTryable-FailureTryableUITests-dummy.m"; sourceTree = "<group>"; };
+		870120EE4C364F61176E1D405575176B /* Pods-FailureTryable-FailureTryableUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FailureTryable-FailureTryableUITests.modulemap"; sourceTree = "<group>"; };
+		8CDC6AD00D86EC345630FAF69B571AB3 /* SmartCodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartCodable.debug.xcconfig; sourceTree = "<group>"; };
+		96368030B2789777F02210057A86071B /* Pods-FailureTryable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryable.debug.xcconfig"; sourceTree = "<group>"; };
+		9799AA49DCF0FCAB55639EB9F907393A /* LogCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCache.swift; path = SmartCodable/Classes/Log/LogCache.swift; sourceTree = "<group>"; };
+		97EABEB90E27A604D347DB22A24EF326 /* SmartEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartEncodable.swift; path = SmartCodable/Classes/SmartCodable/SmartEncodable.swift; sourceTree = "<group>"; };
+		9A53B225A4616FF826924D115E418298 /* Cachable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cachable.swift; path = SmartCodable/Classes/Cache/Cachable.swift; sourceTree = "<group>"; };
+		9BE4808A94ACD9E382BDE654CAC7E86A /* Pods-FailureTryable-FailureTryableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryable-FailureTryableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF508934137A6ABD7338559B9C8E3D7 /* Pods-FailureTryable-FailureTryableUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryable-FailureTryableUITests-Info.plist"; sourceTree = "<group>"; };
+		9EF8E8EE6E7D24529AC8FE0E2024F405 /* KeysMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeysMapper.swift; path = SmartCodable/Classes/JSONDecoder/Decoder/KeysMapper.swift; sourceTree = "<group>"; };
+		A0FD830CFF7E7D0D5BEEDCA6345024F2 /* SmartKeyDecodingStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartKeyDecodingStrategy.swift; path = SmartCodable/Classes/JSONDecoder/Decoder/SmartKeyDecodingStrategy.swift; sourceTree = "<group>"; };
+		A1D26D6149232FF10040E68451D2B6B1 /* IgnoredKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoredKey.swift; path = SmartCodable/Classes/SmartType/IgnoredKey.swift; sourceTree = "<group>"; };
+		A5A519CBEF803933BA313D977F561378 /* SmartCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartCodable-prefix.pch"; sourceTree = "<group>"; };
+		AB68352E16AC6D25A859D255EB77ED24 /* DataTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransformer.swift; path = SmartCodable/Classes/Transformer/DataTransformer.swift; sourceTree = "<group>"; };
+		ABA3ADFD5A933D2A515E0C14396D928D /* SmartAnyImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartAnyImpl.swift; path = SmartCodable/Classes/SmartType/SmartAny/SmartAnyImpl.swift; sourceTree = "<group>"; };
+		AD21B71630478217DB298F20521F20EF /* _SpecialTreatmentEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _SpecialTreatmentEncoder.swift; path = SmartCodable/Classes/JSONEncoder/Impl/_SpecialTreatmentEncoder.swift; sourceTree = "<group>"; };
+		AD79F169CAF51233104F59F5C8FCB06C /* JSONValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONValue.swift; path = SmartCodable/Classes/JSONValue/JSONValue.swift; sourceTree = "<group>"; };
+		B1D5E38D10C001E3825120359CD74F42 /* SmartCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartCodable.swift; path = SmartCodable/Classes/SmartCodable/SmartCodable.swift; sourceTree = "<group>"; };
+		B6BC3AD756846016D1070FD2D34CDACA /* Pods-FailureTryable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FailureTryable.release.xcconfig"; sourceTree = "<group>"; };
+		B8811F65BB2385025AB80136AB17B2A3 /* SmartDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartDecodable.swift; path = SmartCodable/Classes/SmartCodable/SmartDecodable.swift; sourceTree = "<group>"; };
+		B9EB826B57433059566DB98A765BADAB /* Pods-FailureTryableTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FailureTryableTests-dummy.m"; sourceTree = "<group>"; };
+		C7CCE0A086B3B750EF675681ACEF02CC /* SmartUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartUpdater.swift; path = SmartCodable/Classes/SmartCodable/SmartUpdater.swift; sourceTree = "<group>"; };
+		D359037AD8460D1596A9D7A267AE7D11 /* Pods-FailureTryable-FailureTryableUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FailureTryable-FailureTryableUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D40B26FD4C781A79C267D0A0A446E451 /* Pods-FailureTryable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FailureTryable-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4B564744FB01FAE2BAE9E2FAE331527 /* JSONDecoderImpl+SingleValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONDecoderImpl+SingleValueContainer.swift"; path = "SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+SingleValueContainer.swift"; sourceTree = "<group>"; };
+		D5045360BA081A86DDA0962E7BC61DCA /* SmartCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartCodable.modulemap; sourceTree = "<group>"; };
+		D965DF41B42FDC214ADD04BB30F0F6F8 /* Patcher+Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Patcher+Transformer.swift"; path = "SmartCodable/Classes/JSONDecoder/Patcher/Patcher+Transformer.swift"; sourceTree = "<group>"; };
+		DB06952D6F01D9EB6D6ADC0D0A1166D7 /* SmartJSONDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartJSONDecoder.swift; path = SmartCodable/Classes/JSONDecoder/Decoder/SmartJSONDecoder.swift; sourceTree = "<group>"; };
+		E0992A8A8444423A519D1C75467EAC17 /* Pods-FailureTryable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FailureTryable-umbrella.h"; sourceTree = "<group>"; };
+		E47FF5039346B14144E084C4DC8F4084 /* Pods-FailureTryableTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryableTests-Info.plist"; sourceTree = "<group>"; };
+		E4A440E4D0441A478508B5945384B280 /* JSONSingleValueEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSingleValueEncodingContainer.swift; path = SmartCodable/Classes/JSONEncoder/Container/JSONSingleValueEncodingContainer.swift; sourceTree = "<group>"; };
+		E68625297ED34274D8D6A71DB2E42643 /* Pods-FailureTryable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FailureTryable-acknowledgements.plist"; sourceTree = "<group>"; };
+		F282075C481BA14861815736BDB1314A /* Pods-FailureTryable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FailureTryable-dummy.m"; sourceTree = "<group>"; };
+		F6E43CF269109A2A3AA9809832B8A021 /* JSONDecoderImpl+KeyedContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONDecoderImpl+KeyedContainer.swift"; path = "SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+KeyedContainer.swift"; sourceTree = "<group>"; };
+		F893D1A61ACDBEF8533F044128313DCD /* SmartJSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartJSONEncoder.swift; path = SmartCodable/Classes/JSONEncoder/SmartJSONEncoder.swift; sourceTree = "<group>"; };
+		F9826EE68AA32C3F5DA8805697B00507 /* DecodingCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodingCache.swift; path = SmartCodable/Classes/JSONDecoder/Decoder/DecodingCache.swift; sourceTree = "<group>"; };
+		F9E79FF14CC050C8883F0527031B4612 /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformer.swift; path = SmartCodable/Classes/Transformer/Transformer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0677723CE59D73416F4044952444DA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B9E9256C5B7DD0CC964EF42EDA33E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A913BE8F4DF36D4AC43CBE6C80DFE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEBF5A48373929B25C91B82E8265207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C18EA5D22421596E9DECBB845DBA90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7443DBAE6EDF8317C0E34FB6849A6E2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCEC5970AEC5A1E6290DABDE3F2C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B26E606F3114758486C49F511FE21FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1184029B106FB6D340E9A469374C661D /* Pods-FailureTryableTests */ = {
+			isa = PBXGroup;
+			children = (
+				801F6977DDF9F9C6B9C2A62FEB3679C0 /* Pods-FailureTryableTests.modulemap */,
+				2608ACD001D53E83B2E486023D9C40F4 /* Pods-FailureTryableTests-acknowledgements.markdown */,
+				5F49A4BAA1349E0CF4CEF0BF756306A8 /* Pods-FailureTryableTests-acknowledgements.plist */,
+				B9EB826B57433059566DB98A765BADAB /* Pods-FailureTryableTests-dummy.m */,
+				E47FF5039346B14144E084C4DC8F4084 /* Pods-FailureTryableTests-Info.plist */,
+				21CF7E3DC54016774D41C03C6929324E /* Pods-FailureTryableTests-umbrella.h */,
+				49D543037E3291D0F4029F966F5B9B8D /* Pods-FailureTryableTests.debug.xcconfig */,
+				47108FE38948C561B55F740E75200033 /* Pods-FailureTryableTests.release.xcconfig */,
+			);
+			name = "Pods-FailureTryableTests";
+			path = "Target Support Files/Pods-FailureTryableTests";
+			sourceTree = "<group>";
+		};
+		4A9709F53E6AC878ACC8A2D2965DC324 /* SmartCodable */ = {
+			isa = PBXGroup;
+			children = (
+				AD21B71630478217DB298F20521F20EF /* _SpecialTreatmentEncoder.swift */,
+				9A53B225A4616FF826924D115E418298 /* Cachable.swift */,
+				3E4FF7E869BFA787BCC00C83E7B7B61B /* ColorTransformer.swift */,
+				AB68352E16AC6D25A859D255EB77ED24 /* DataTransformer.swift */,
+				6B46B1240EE1D4B2DDB826DE7B28B33A /* DateTransformer.swift */,
+				F9826EE68AA32C3F5DA8805697B00507 /* DecodingCache.swift */,
+				22D69D1D13441D1B6207D9D489EA5FC0 /* DecodingError+Extension.swift */,
+				25AEF5A39EC699E446CB5A79CE97EF06 /* EncodingCache.swift */,
+				A1D26D6149232FF10040E68451D2B6B1 /* IgnoredKey.swift */,
+				4FC340B75461B686697BAC8B74747B9B /* JSONDecoderImpl.swift */,
+				F6E43CF269109A2A3AA9809832B8A021 /* JSONDecoderImpl+KeyedContainer.swift */,
+				D4B564744FB01FAE2BAE9E2FAE331527 /* JSONDecoderImpl+SingleValueContainer.swift */,
+				72115A1404B97F1ECD2BBBAC17AA2C7C /* JSONDecoderImpl+UnkeyedContainer.swift */,
+				23A7BD50C9EE28A3115798C870A69AE1 /* JSONDecoderImpl+unwrap.swift */,
+				3979D89A068728C583012B051BF87078 /* JSONEncoderImpl.swift */,
+				76732CB4A835C59D79BBCC10560A35DA /* JSONFuture.swift */,
+				0F5C257F403CA9EBD9720A847CDF5B88 /* JSONKeyedEncodingContainer.swift */,
+				748A4C4DD28215ECCC8EAAE9F9403C6E /* JSONParser.swift */,
+				E4A440E4D0441A478508B5945384B280 /* JSONSingleValueEncodingContainer.swift */,
+				09A7DE85E51261AB8BFBF9A77D0475EE /* JSONUnkeyedEncodingContainer.swift */,
+				AD79F169CAF51233104F59F5C8FCB06C /* JSONValue.swift */,
+				2A558AEB3E382033DFBC30EE91AA10FC /* JSONValue+Extension.swift */,
+				9EF8E8EE6E7D24529AC8FE0E2024F405 /* KeysMapper.swift */,
+				9799AA49DCF0FCAB55639EB9F907393A /* LogCache.swift */,
+				3CB5B054611A772B45306D8A4ED26AFC /* LogContainer.swift */,
+				80EF66711A918FA037434C7C9C42B885 /* LogItem.swift */,
+				2B6DDA1A2221D5DD5D38A541D70D26F1 /* Patcher.swift */,
+				0F1B9707BE42303E3C277F9C07539685 /* Patcher+Provider.swift */,
+				D965DF41B42FDC214ADD04BB30F0F6F8 /* Patcher+Transformer.swift */,
+				2E52AA1FB9EF46D5A9E9E499686575D9 /* SafeDictionary.swift */,
+				6B47F5A84142A77966B88421AEFAFD05 /* SmartAny.swift */,
+				ABA3ADFD5A933D2A515E0C14396D928D /* SmartAnyImpl.swift */,
+				48DD4CD0BEFD222E8967E90F502213AF /* SmartCaseDefaultable.swift */,
+				B1D5E38D10C001E3825120359CD74F42 /* SmartCodable.swift */,
+				26C6DB222C41E80854968C6094189437 /* SmartColor.swift */,
+				B8811F65BB2385025AB80136AB17B2A3 /* SmartDecodable.swift */,
+				97EABEB90E27A604D347DB22A24EF326 /* SmartEncodable.swift */,
+				18C60842350302743E7D7A9F50569C85 /* SmartFlat.swift */,
+				DB06952D6F01D9EB6D6ADC0D0A1166D7 /* SmartJSONDecoder.swift */,
+				F893D1A61ACDBEF8533F044128313DCD /* SmartJSONEncoder.swift */,
+				A0FD830CFF7E7D0D5BEEDCA6345024F2 /* SmartKeyDecodingStrategy.swift */,
+				699D6E84D8F1224EEB409B78DDE911A2 /* SmartLog.swift */,
+				C7CCE0A086B3B750EF675681ACEF02CC /* SmartUpdater.swift */,
+				F9E79FF14CC050C8883F0527031B4612 /* Transformer.swift */,
+				615217D4132CA482360BDF2880E58DE3 /* URLTransformer.swift */,
+				BEF1CE4BDDEE2EEE4493A9B7A7A1AA35 /* Support Files */,
+			);
+			name = SmartCodable;
+			path = SmartCodable;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E7E4D97F40CE217FD5837475A7EF8E2 /* Pods-FailureTryable-FailureTryableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				870120EE4C364F61176E1D405575176B /* Pods-FailureTryable-FailureTryableUITests.modulemap */,
+				D359037AD8460D1596A9D7A267AE7D11 /* Pods-FailureTryable-FailureTryableUITests-acknowledgements.markdown */,
+				414B6007BE943C412E3F03A3A9E31656 /* Pods-FailureTryable-FailureTryableUITests-acknowledgements.plist */,
+				82C6C5C0507B2F889CA5E24DB40E3839 /* Pods-FailureTryable-FailureTryableUITests-dummy.m */,
+				7B900AAF7D4B95C32EDC4B50C0304EC7 /* Pods-FailureTryable-FailureTryableUITests-frameworks.sh */,
+				9DF508934137A6ABD7338559B9C8E3D7 /* Pods-FailureTryable-FailureTryableUITests-Info.plist */,
+				246D426E5CFD30E9070CAEA3487C3E6B /* Pods-FailureTryable-FailureTryableUITests-umbrella.h */,
+				9BE4808A94ACD9E382BDE654CAC7E86A /* Pods-FailureTryable-FailureTryableUITests.debug.xcconfig */,
+				6C68B2DB7FA22D7DB8817936EC75D7DF /* Pods-FailureTryable-FailureTryableUITests.release.xcconfig */,
+			);
+			name = "Pods-FailureTryable-FailureTryableUITests";
+			path = "Target Support Files/Pods-FailureTryable-FailureTryableUITests";
+			sourceTree = "<group>";
+		};
+		82EF9AB54F9F594E84E335141DFBE076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2ED901173EE0E8F978480D79E3F47F /* Pods-FailureTryable */,
+				21911F647D32393A6EAA4EFBA7A0C5D7 /* Pods-FailureTryable-FailureTryableUITests */,
+				5B47BAEF5F8806D3B61263FDC7793196 /* Pods-FailureTryableTests */,
+				3E623AAE662B463FDDE8B268BDEA3E7B /* SmartCodable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8CDC9FC217931D796EEFEF6631206B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A9709F53E6AC878ACC8A2D2965DC324 /* SmartCodable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B22714760C11EC58D998C0228DD91626 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA78FE0E35EB726C5EFBE6F23543D812 /* Pods-FailureTryable */,
+				6E7E4D97F40CE217FD5837475A7EF8E2 /* Pods-FailureTryable-FailureTryableUITests */,
+				1184029B106FB6D340E9A469374C661D /* Pods-FailureTryableTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BEF1CE4BDDEE2EEE4493A9B7A7A1AA35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5045360BA081A86DDA0962E7BC61DCA /* SmartCodable.modulemap */,
+				2CC2118138B0D1E16847EE1C264525A5 /* SmartCodable-dummy.m */,
+				633D14CD253E8337B8C13C70F8C48C19 /* SmartCodable-Info.plist */,
+				A5A519CBEF803933BA313D977F561378 /* SmartCodable-prefix.pch */,
+				214D46EC34839B2328AD85E8393CAF3F /* SmartCodable-umbrella.h */,
+				8CDC6AD00D86EC345630FAF69B571AB3 /* SmartCodable.debug.xcconfig */,
+				5617B10A58630BB3E1C98FE637645ABD /* SmartCodable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmartCodable";
+			sourceTree = "<group>";
+		};
+		CA78FE0E35EB726C5EFBE6F23543D812 /* Pods-FailureTryable */ = {
+			isa = PBXGroup;
+			children = (
+				131132234D7B97D3E7AC188D049AD7E4 /* Pods-FailureTryable.modulemap */,
+				D40B26FD4C781A79C267D0A0A446E451 /* Pods-FailureTryable-acknowledgements.markdown */,
+				E68625297ED34274D8D6A71DB2E42643 /* Pods-FailureTryable-acknowledgements.plist */,
+				F282075C481BA14861815736BDB1314A /* Pods-FailureTryable-dummy.m */,
+				58BCED7974A003093FA1536A773E77E2 /* Pods-FailureTryable-frameworks.sh */,
+				269E06C0CCD33AD895FF11480820305D /* Pods-FailureTryable-Info.plist */,
+				E0992A8A8444423A519D1C75467EAC17 /* Pods-FailureTryable-umbrella.h */,
+				96368030B2789777F02210057A86071B /* Pods-FailureTryable.debug.xcconfig */,
+				B6BC3AD756846016D1070FD2D34CDACA /* Pods-FailureTryable.release.xcconfig */,
+			);
+			name = "Pods-FailureTryable";
+			path = "Target Support Files/Pods-FailureTryable";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D8CDC9FC217931D796EEFEF6631206B /* Pods */,
+				82EF9AB54F9F594E84E335141DFBE076 /* Products */,
+				B22714760C11EC58D998C0228DD91626 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04D4B598664A2A547DDCA1D07F0154DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F5EA2300E07BAE0CDBCA7C58F7B2D3 /* Pods-FailureTryableTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0557B60952A5B6DB535450630A6BAD9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BC1A9437AE6A68E4AD820A337FE295 /* Pods-FailureTryable-FailureTryableUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C67C1CF87AC4881ACC06C896907D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAA96BB68FE547684137B95F5705530 /* SmartCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81B87EA0E7D513147BA6C828F0FB14E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5C2D7E4A49BCB61FF367A717CDDFA0 /* Pods-FailureTryable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F0B392D62730AFA71051FDBBB1964C6 /* Pods-FailureTryableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FC2F57F11091C1670B528CAB1097E5 /* Build configuration list for PBXNativeTarget "Pods-FailureTryableTests" */;
+			buildPhases = (
+				04D4B598664A2A547DDCA1D07F0154DC /* Headers */,
+				413D469B72F0CAC437ED9553859EFB1C /* Sources */,
+				0677723CE59D73416F4044952444DA6E /* Frameworks */,
+				8028147DB7CD07A08E5956104E2946ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841926804189DF7A2043743B8AB928CF /* PBXTargetDependency */,
+			);
+			name = "Pods-FailureTryableTests";
+			productName = Pods_FailureTryableTests;
+			productReference = 5B47BAEF5F8806D3B61263FDC7793196 /* Pods-FailureTryableTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		83276BBDFDE93B9D03A5FA394EC1CC70 /* Pods-FailureTryable-FailureTryableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BCFB2A1C3364C2F16643A4F812C2AE /* Build configuration list for PBXNativeTarget "Pods-FailureTryable-FailureTryableUITests" */;
+			buildPhases = (
+				0557B60952A5B6DB535450630A6BAD9D /* Headers */,
+				6B974E9EC67F84037F1FCEF11642AC9D /* Sources */,
+				0A913BE8F4DF36D4AC43CBE6C80DFE95 /* Frameworks */,
+				523A085D7DB4A1ABF30F2E2025FADDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E916EBC16FE77EBDD7A4AF035F5D5AC /* PBXTargetDependency */,
+			);
+			name = "Pods-FailureTryable-FailureTryableUITests";
+			productName = Pods_FailureTryable_FailureTryableUITests;
+			productReference = 21911F647D32393A6EAA4EFBA7A0C5D7 /* Pods-FailureTryable-FailureTryableUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		96E22F21D8E988F433305B863C959214 /* Pods-FailureTryable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F353F1AA0495F29458D5C939A287BA5 /* Build configuration list for PBXNativeTarget "Pods-FailureTryable" */;
+			buildPhases = (
+				C81B87EA0E7D513147BA6C828F0FB14E /* Headers */,
+				2F1EA7539F02AA4CB87F87852BC2E85C /* Sources */,
+				9ECCEC5970AEC5A1E6290DABDE3F2C00 /* Frameworks */,
+				BA5F248ABF7D70B2E0AAF8EDA29F4663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C868BC012C8744A1C49E6192041B539 /* PBXTargetDependency */,
+			);
+			name = "Pods-FailureTryable";
+			productName = Pods_FailureTryable;
+			productReference = 4A2ED901173EE0E8F978480D79E3F47F /* Pods-FailureTryable */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD33823B9D08265B6F1D35EC259EE307 /* SmartCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D41D1EC0DBBCD971749433A09E0C096 /* Build configuration list for PBXNativeTarget "SmartCodable" */;
+			buildPhases = (
+				A2C67C1CF87AC4881ACC06C896907D6B /* Headers */,
+				6718877A6C9E673F80D2929CE7403285 /* Sources */,
+				9C18EA5D22421596E9DECBB845DBA90A /* Frameworks */,
+				5BD56FAFF8C07097D963B5E3F72D2AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCodable;
+			productName = SmartCodable;
+			productReference = 3E623AAE662B463FDDE8B268BDEA3E7B /* SmartCodable */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 82EF9AB54F9F594E84E335141DFBE076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E22F21D8E988F433305B863C959214 /* Pods-FailureTryable */,
+				83276BBDFDE93B9D03A5FA394EC1CC70 /* Pods-FailureTryable-FailureTryableUITests */,
+				0F0B392D62730AFA71051FDBBB1964C6 /* Pods-FailureTryableTests */,
+				BD33823B9D08265B6F1D35EC259EE307 /* SmartCodable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523A085D7DB4A1ABF30F2E2025FADDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD56FAFF8C07097D963B5E3F72D2AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8028147DB7CD07A08E5956104E2946ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5F248ABF7D70B2E0AAF8EDA29F4663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1EA7539F02AA4CB87F87852BC2E85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD23CBB54A088FEB65D3E86175AD769 /* Pods-FailureTryable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413D469B72F0CAC437ED9553859EFB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085FC874B3B45B98704F97F7B29F296 /* Pods-FailureTryableTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6718877A6C9E673F80D2929CE7403285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293D330D5B3005536A9E65D085E7F74A /* _SpecialTreatmentEncoder.swift in Sources */,
+				D6E00507896F1FACC017D86271E9410A /* Cachable.swift in Sources */,
+				5074F9F873ECFFD0EC44D90A36F86290 /* ColorTransformer.swift in Sources */,
+				5DD774D9553BB0A1E7DD06104B8787B4 /* DataTransformer.swift in Sources */,
+				481ED4EC7CD067CAA010444C6F2234BE /* DateTransformer.swift in Sources */,
+				6C15795259123CB3111F6139B4F08EBF /* DecodingCache.swift in Sources */,
+				95E3552C5C7D26EDA16FE416D5516DC2 /* DecodingError+Extension.swift in Sources */,
+				443F69A4E140E47ED5EAC12F5632F4E5 /* EncodingCache.swift in Sources */,
+				AFD64ED17AB64DDD94C9E3E4A7243D86 /* IgnoredKey.swift in Sources */,
+				9F9FDDB9ECDF329EE3BB9A0F42D4791C /* JSONDecoderImpl.swift in Sources */,
+				2C251D3120691D5FDD3A7198DAAFA597 /* JSONDecoderImpl+KeyedContainer.swift in Sources */,
+				16AA07BB04B238CFA58B841C38184736 /* JSONDecoderImpl+SingleValueContainer.swift in Sources */,
+				9FF7249130FCD4BC222F46722BEF4946 /* JSONDecoderImpl+UnkeyedContainer.swift in Sources */,
+				3594F8E77516C98EB3799C22DCA1F918 /* JSONDecoderImpl+unwrap.swift in Sources */,
+				48469B99B38010CA5F6BD69CEB0B7748 /* JSONEncoderImpl.swift in Sources */,
+				2C7F624D349C00D5F668157AC76B137C /* JSONFuture.swift in Sources */,
+				9B0604AE1D5B6B68D3AFC93E4469A3ED /* JSONKeyedEncodingContainer.swift in Sources */,
+				73447AED57BCA82AD09EF91E353110F7 /* JSONParser.swift in Sources */,
+				54D09525E375EF53435D912048806AC8 /* JSONSingleValueEncodingContainer.swift in Sources */,
+				EC09E8884340BFD4E0FF333D10E7C0C3 /* JSONUnkeyedEncodingContainer.swift in Sources */,
+				7FF99D84D5BE10400C5EB413CE1610BD /* JSONValue.swift in Sources */,
+				3B52CD201D35CDC944EA6F62C66C561B /* JSONValue+Extension.swift in Sources */,
+				9E185AD37F92BAD8AB389053E894202A /* KeysMapper.swift in Sources */,
+				396B3E8B9C2A85871EA7800C51D32AEE /* LogCache.swift in Sources */,
+				9C019DB38CD34F53379B34C4FC128A8F /* LogContainer.swift in Sources */,
+				57B0176C06CE10CE73E285F5D03ADD9E /* LogItem.swift in Sources */,
+				12D2CACFA4170C6249F3D39AAF5AC667 /* Patcher.swift in Sources */,
+				E4B8C1886E12A1F6680F8EFDAE0552FF /* Patcher+Provider.swift in Sources */,
+				35E05CC7ABE2355A9F643F19FBC262E8 /* Patcher+Transformer.swift in Sources */,
+				51CB58707FAE45B1F07996BCCF0D8FF0 /* SafeDictionary.swift in Sources */,
+				C9B55E0B8DE1C0E76D2555FBABE4A702 /* SmartAny.swift in Sources */,
+				FEE8BD5534019A8EB1947B8243935535 /* SmartAnyImpl.swift in Sources */,
+				60D74B95112002E71A8365082E7C304F /* SmartCaseDefaultable.swift in Sources */,
+				2275CDE93D65CBD6998E718FBF7CE41E /* SmartCodable.swift in Sources */,
+				01C315A4FAAA2F9921AF661FB50FCA07 /* SmartCodable-dummy.m in Sources */,
+				C16B4309104BA3E8E1B3C6B9755EEE50 /* SmartColor.swift in Sources */,
+				6D8AF4794BFF87CF9DE337957F988511 /* SmartDecodable.swift in Sources */,
+				CC8AFEFE3125DCC85CA65FE608982480 /* SmartEncodable.swift in Sources */,
+				36D88F31765D928838327CDAE5F2AACC /* SmartFlat.swift in Sources */,
+				5A7D2BAADB20A45784AAA88B50520704 /* SmartJSONDecoder.swift in Sources */,
+				592AE3B59C37091F88142B34F00F98B8 /* SmartJSONEncoder.swift in Sources */,
+				195B88EC98A414D15780F974E581E3AC /* SmartKeyDecodingStrategy.swift in Sources */,
+				22AF13BCA60279D4091EAA8ACFEBB379 /* SmartLog.swift in Sources */,
+				5A3AE637D358ED84FDFFCE31DC4017FD /* SmartUpdater.swift in Sources */,
+				7EC67E3B6929ACBC6AF6F5DDDA256682 /* Transformer.swift in Sources */,
+				048FE9F115CBAAAAB33C1A90988DC62F /* URLTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B974E9EC67F84037F1FCEF11642AC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F19C282356CC19E7AACC22FA7335877 /* Pods-FailureTryable-FailureTryableUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E916EBC16FE77EBDD7A4AF035F5D5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartCodable;
+			target = BD33823B9D08265B6F1D35EC259EE307 /* SmartCodable */;
+			targetProxy = 5B91A93F6D67B25613103B52AA873949 /* PBXContainerItemProxy */;
+		};
+		5C868BC012C8744A1C49E6192041B539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartCodable;
+			target = BD33823B9D08265B6F1D35EC259EE307 /* SmartCodable */;
+			targetProxy = 6C1949B39616C0C16ADF65599ACCDB1F /* PBXContainerItemProxy */;
+		};
+		841926804189DF7A2043743B8AB928CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FailureTryable";
+			target = 96E22F21D8E988F433305B863C959214 /* Pods-FailureTryable */;
+			targetProxy = 0B1D86B3F143452E3C1D11A23A8D627E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02240104AA83A38352F380D75337329F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE4808A94ACD9E382BDE654CAC7E86A /* Pods-FailureTryable-FailureTryableUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryable-FailureTryableUITests/Pods-FailureTryable-FailureTryableUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryable-FailureTryableUITests/Pods-FailureTryable-FailureTryableUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06C612DDB0D0DE398FD4A13885250BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47108FE38948C561B55F740E75200033 /* Pods-FailureTryableTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryableTests/Pods-FailureTryableTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryableTests/Pods-FailureTryableTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48BC81DFACAB5FD4B74982FDDA0E927A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D543037E3291D0F4029F966F5B9B8D /* Pods-FailureTryableTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryableTests/Pods-FailureTryableTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryableTests/Pods-FailureTryableTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D3DDF5C638CD59F4D491D1D0C7A4EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDC6AD00D86EC345630FAF69B571AB3 /* SmartCodable.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartCodable/SmartCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartCodable/SmartCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartCodable/SmartCodable.modulemap";
+				PRODUCT_MODULE_NAME = SmartCodable;
+				PRODUCT_NAME = SmartCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E584A481B949760223F9B3F28C4AE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BC3AD756846016D1070FD2D34CDACA /* Pods-FailureTryable.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryable/Pods-FailureTryable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryable/Pods-FailureTryable.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C63FD247138A30EFC8C507C33158D658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5617B10A58630BB3E1C98FE637645ABD /* SmartCodable.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartCodable/SmartCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartCodable/SmartCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartCodable/SmartCodable.modulemap";
+				PRODUCT_MODULE_NAME = SmartCodable;
+				PRODUCT_NAME = SmartCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8733D1ADB0F4CF24FEA1EA55DC05C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96368030B2789777F02210057A86071B /* Pods-FailureTryable.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryable/Pods-FailureTryable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryable/Pods-FailureTryable.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6B9BE527F0FAEE8210BAC6F581220A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C68B2DB7FA22D7DB8817936EC75D7DF /* Pods-FailureTryable-FailureTryableUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FailureTryable-FailureTryableUITests/Pods-FailureTryable-FailureTryableUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FailureTryable-FailureTryableUITests/Pods-FailureTryable-FailureTryableUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BCFB2A1C3364C2F16643A4F812C2AE /* Build configuration list for PBXNativeTarget "Pods-FailureTryable-FailureTryableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02240104AA83A38352F380D75337329F /* Debug */,
+				F6B9BE527F0FAEE8210BAC6F581220A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D41D1EC0DBBCD971749433A09E0C096 /* Build configuration list for PBXNativeTarget "SmartCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3DDF5C638CD59F4D491D1D0C7A4EB3 /* Debug */,
+				C63FD247138A30EFC8C507C33158D658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F353F1AA0495F29458D5C939A287BA5 /* Build configuration list for PBXNativeTarget "Pods-FailureTryable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8733D1ADB0F4CF24FEA1EA55DC05C5D /* Debug */,
+				9E584A481B949760223F9B3F28C4AE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FC2F57F11091C1670B528CAB1097E5 /* Build configuration list for PBXNativeTarget "Pods-FailureTryableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BC81DFACAB5FD4B74982FDDA0E927A /* Debug */,
+				06C612DDB0D0DE398FD4A13885250BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

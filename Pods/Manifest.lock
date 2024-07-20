@@ -1,0 +1,16 @@
+PODS:
+  - SmartCodable (4.1.1)
+
+DEPENDENCIES:
+  - SmartCodable
+
+SPEC REPOS:
+  trunk:
+    - SmartCodable
+
+SPEC CHECKSUMS:
+  SmartCodable: 092fd8c698dc958fc95e1d93baf3b497f9ab1715
+
+PODFILE CHECKSUM: 9172e2b9a8fe2f6de47875acf51dc2da9bc387a0
+
+COCOAPODS: 1.12.1
